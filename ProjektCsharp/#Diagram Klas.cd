@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProjektCsharp.Biblioteka">
+    <Position X="0.75" Y="2.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAEAgAAAAAACQAAAAQAASAAQAiAEAAABQgAAA=</HashCode>
+      <FileName>Biblioteka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektCsharp.Czytelnik">
+    <Position X="4.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAABAAIAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Czytelnik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektCsharp.FileHandler">
+    <Position X="6.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAA=</HashCode>
+      <FileName>FileHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektCsharp.Ksiazka">
+    <Position X="7.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAgBCAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Ksiazka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektCsharp.Menu">
+    <Position X="13.25" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAEAgIAAAAgSQAQAAQAAYAAQACAAAAAAAgAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektCsharp.Program">
+    <Position X="8.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjektCsharp.Wypozyczenie">
+    <Position X="10.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAgAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAAAAQAAAA=</HashCode>
+      <FileName>Wypozyczenie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
