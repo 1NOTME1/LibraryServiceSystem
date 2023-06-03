@@ -18,7 +18,7 @@ namespace ProjektCsharp
             Czytelnicy = new List<Czytelnik>();
             Wypozyczenia = new List<Wypozyczenie>();
         }
- //================================================================KSIAZKA====================================================================================/
+        //================================================================KSIAZKA====================================================================================/
 
         public void DodajKsiazke(Ksiazka ksiazka)
         {
@@ -50,7 +50,7 @@ namespace ProjektCsharp
                 Console.WriteLine($"ID: {ksiazka.ID}, Tytul: {ksiazka.Tytul}, Autor: {ksiazka.Autor}, Rok wydania: {ksiazka.RokWydania}");
             }
         }
- //==========================================================CZYTELNIK=========================================================================================/
+        //==========================================================CZYTELNIK=========================================================================================/
         public void DodajCzytelnika(Czytelnik czytelnik)
         {
             Czytelnicy.Add(czytelnik);
@@ -92,7 +92,7 @@ namespace ProjektCsharp
             }
         }
 
-        //==========================================================WYPOZYCZENIE / ZWROTY=========================================================================================/
+        //==========================================================WYPOZYCZENIE / ZWROTY=====================================================================================/
 
         public void WypozyczKsiazke(int idKsiazki, int idCzytelnika)
         {
