@@ -132,14 +132,11 @@ namespace ProjektCsharp
             {
                 DateTime dataZwrotu = DateTime.Now;
 
-                // Obliczanie opóźnienia w zwróceniu książki
                 TimeSpan roznicaCzasu = dataZwrotu - wypozyczenie.DataZwrotu;
                 int opoznienie = Math.Max(0, roznicaCzasu.Days);
 
-                // Obliczanie kary za opóźnienie
-                int kara = opoznienie * 2; // Zakładam, że kara wynosi 2 złote za każdy dzień opóźnienia
+                int kara = opoznienie * 2;
 
-                // Wyświetlanie informacji o zwrocie książki
                 Console.WriteLine("Zwrot książki:");
                 Console.WriteLine($"ID wypożyczenia: {wypozyczenie.ID}");
                 Console.WriteLine($"ID książki: {wypozyczenie.IDKsiazki}");
@@ -150,7 +147,6 @@ namespace ProjektCsharp
                 Console.WriteLine($"Opóźnienie (w dniach): {opoznienie}");
                 Console.WriteLine($"Kara za opóźnienie: {kara} zł");
 
-                // Usunięcie wypożyczenia z listy wypożyczeń
                 Wypozyczenia.Remove(wypozyczenie);
             }
             else
